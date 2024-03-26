@@ -23,7 +23,7 @@ public class HelloController {
     public String show(Model model) {
         model.addAttribute("name", "CA214 CLASS");
         model.addAttribute("text", "Jamhuriya university!");
-        return "hello";
+        return "hello"; // view name
     }
 
 }
